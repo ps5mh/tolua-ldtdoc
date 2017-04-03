@@ -1,0 +1,15 @@
+---
+-- @module UnityEngine_MeshRenderer
+
+---
+-- @type MeshRenderer
+-- @extends UnityEngine_Renderer#Renderer
+
+---
+-- @function [parent=#MeshRenderer] New
+-- @return UnityEngine_MeshRenderer#MeshRenderer
+
+---
+-- @field [parent=#MeshRenderer] UnityEngine_Mesh#Mesh additionalVertexStreams
+
+return nil

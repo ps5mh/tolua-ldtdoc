@@ -1,0 +1,8 @@
+---
+-- @module LuaInterface_EventObject
+
+---
+-- @type EventObject
+-- @extends System_Object#Object
+
+return nil

@@ -1,0 +1,93 @@
+---
+-- @module UnityEngine_AssetBundle
+
+---
+-- @type AssetBundle
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#AssetBundle] LoadFromFileAsync
+-- @param arg0
+-- @return UnityEngine_AssetBundleCreateRequest#AssetBundleCreateRequest
+
+---
+-- @function [parent=#AssetBundle] LoadFromFile
+-- @param arg0
+-- @return UnityEngine_AssetBundle#AssetBundle
+
+---
+-- @function [parent=#AssetBundle] LoadFromMemoryAsync
+-- @param arg0
+-- @return UnityEngine_AssetBundleCreateRequest#AssetBundleCreateRequest
+
+---
+-- @function [parent=#AssetBundle] LoadFromMemory
+-- @param arg0
+-- @return UnityEngine_AssetBundle#AssetBundle
+
+---
+-- @function [parent=#AssetBundle] Contains
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#AssetBundle] LoadAsset
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Object#Object
+
+---
+-- @function [parent=#AssetBundle] LoadAssetAsync
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
+
+---
+-- @function [parent=#AssetBundle] LoadAssetWithSubAssets
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] LoadAssetWithSubAssetsAsync
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
+
+---
+-- @function [parent=#AssetBundle] LoadAllAssets
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] LoadAllAssetsAsync
+-- @param self
+-- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
+
+---
+-- @function [parent=#AssetBundle] Unload
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AssetBundle] GetAllAssetNames
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] GetAllScenePaths
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] New
+-- @return UnityEngine_AssetBundle#AssetBundle
+
+---
+-- @field [parent=#AssetBundle] UnityEngine_Object#Object mainAsset
+
+---
+-- @field [parent=#AssetBundle] #boolean isStreamedSceneAssetBundle
+
+return nil

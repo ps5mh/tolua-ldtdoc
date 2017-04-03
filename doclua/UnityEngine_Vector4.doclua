@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Vector4
+
+---
+-- @type Vector4
+-- @extends UnityEngine.Vector4#Vector4
+
+return nil

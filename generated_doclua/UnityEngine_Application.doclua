@@ -1,0 +1,172 @@
+---
+-- @module UnityEngine_Application
+
+---
+-- @type Application
+
+---
+-- @function [parent=#Application] Quit
+
+---
+-- @function [parent=#Application] CancelQuit
+
+---
+-- @function [parent=#Application] Unload
+
+---
+-- @function [parent=#Application] GetStreamProgressForLevel
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Application] CanStreamedLevelBeLoaded
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Application] GetBuildTags
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Application] CaptureScreenshot
+-- @param arg0
+
+---
+-- @function [parent=#Application] HasProLicense
+-- @return #boolean
+
+---
+-- @function [parent=#Application] ExternalCall
+
+---
+-- @function [parent=#Application] RequestAdvertisingIdentifierAsync
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Application] OpenURL
+-- @param arg0
+
+---
+-- @function [parent=#Application] GetStackTraceLogType
+-- @param arg0
+-- @return UnityEngine_StackTraceLogType#StackTraceLogType
+
+---
+-- @function [parent=#Application] SetStackTraceLogType
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Application] RequestUserAuthorization
+-- @param arg0
+-- @return UnityEngine_AsyncOperation#AsyncOperation
+
+---
+-- @function [parent=#Application] HasUserAuthorization
+-- @param arg0
+-- @return #boolean
+
+---
+-- @field [parent=#Application] #number streamedBytes
+
+---
+-- @field [parent=#Application] #boolean isPlaying
+
+---
+-- @field [parent=#Application] #boolean isFocused
+
+---
+-- @field [parent=#Application] #boolean isEditor
+
+---
+-- @field [parent=#Application] #boolean isWebPlayer
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application platform
+
+---
+-- @field [parent=#Application] #string buildGUID
+
+---
+-- @field [parent=#Application] #boolean isMobilePlatform
+
+---
+-- @field [parent=#Application] #boolean isConsolePlatform
+
+---
+-- @field [parent=#Application] #boolean runInBackground
+
+---
+-- @field [parent=#Application] #string dataPath
+
+---
+-- @field [parent=#Application] #string streamingAssetsPath
+
+---
+-- @field [parent=#Application] #string persistentDataPath
+
+---
+-- @field [parent=#Application] #string temporaryCachePath
+
+---
+-- @field [parent=#Application] #string srcValue
+
+---
+-- @field [parent=#Application] #string absoluteURL
+
+---
+-- @field [parent=#Application] #string unityVersion
+
+---
+-- @field [parent=#Application] #string version
+
+---
+-- @field [parent=#Application] #string installerName
+
+---
+-- @field [parent=#Application] #string identifier
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application installMode
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application sandboxType
+
+---
+-- @field [parent=#Application] #string productName
+
+---
+-- @field [parent=#Application] #string companyName
+
+---
+-- @field [parent=#Application] #string cloudProjectId
+
+---
+-- @field [parent=#Application] #number targetFrameRate
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application systemLanguage
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application backgroundLoadingPriority
+
+---
+-- @field [parent=#Application] UnityEngine_Application#Application internetReachability
+
+---
+-- @field [parent=#Application] #boolean genuine
+
+---
+-- @field [parent=#Application] #boolean genuineCheckAvailable
+
+---
+-- @field [parent=#Application] new EventObject("UnityEngine_Application#Application lowMemory
+
+---
+-- @field [parent=#Application] new EventObject("UnityEngine_Application#Application logMessageReceived
+
+---
+-- @field [parent=#Application] new EventObject("UnityEngine_Application#Application logMessageReceivedThreaded
+
+return nil

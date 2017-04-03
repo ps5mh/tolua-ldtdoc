@@ -1,0 +1,37 @@
+---
+-- @module System_Object
+
+---
+-- @type Object
+
+---
+-- @function [parent=#Object] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Object] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Object] GetType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Object] ToString
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#Object] ReferenceEquals
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Object] Destroy
+
+return nil

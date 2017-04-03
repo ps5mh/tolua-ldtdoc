@@ -1,0 +1,25 @@
+---
+-- @module LuaInterface
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_Debugger#Debugger Debugger
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_EventObject#EventObject EventObject
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_LuaConstructor#LuaConstructor LuaConstructor
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_LuaField#LuaField LuaField
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_LuaMethod#LuaMethod LuaMethod
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_LuaOut#LuaOut LuaOut
+
+---
+-- @field [parent=#LuaInterface] LuaInterface_LuaProperty#LuaProperty LuaProperty
+
+return nil

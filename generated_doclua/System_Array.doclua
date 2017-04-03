@@ -1,0 +1,142 @@
+---
+-- @module System_Array
+
+---
+-- @type Array
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#Array] ToTable
+-- @param self
+-- @return #list<System_Object#Object>
+
+---
+-- @function [parent=#Array] GetLength
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Array] GetLongLength
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Array] GetLowerBound
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Array] GetValue
+-- @param self
+-- @param arg0
+-- @return object#object
+
+---
+-- @function [parent=#Array] SetValue
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Array] GetEnumerator
+-- @param self
+-- @return System_Collections_IEnumerator#IEnumerator
+
+---
+-- @function [parent=#Array] GetUpperBound
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Array] CreateInstance
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Array] BinarySearch
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Array] Clear
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Array] Clone
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#Array] Copy
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Array] IndexOf
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Array] Initialize
+-- @param self
+
+---
+-- @function [parent=#Array] LastIndexOf
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Array] Reverse
+-- @param arg0
+
+---
+-- @function [parent=#Array] Sort
+-- @param arg0
+
+---
+-- @function [parent=#Array] CopyTo
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Array] ConstrainedCopy
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+
+---
+-- @field [parent=#Array] #number Length
+
+---
+-- @field [parent=#Array] #number LongLength
+
+---
+-- @field [parent=#Array] #number Rank
+
+---
+-- @field [parent=#Array] #boolean IsSynchronized
+
+---
+-- @field [parent=#Array] object#object SyncRoot
+
+---
+-- @field [parent=#Array] #boolean IsFixedSize
+
+---
+-- @field [parent=#Array] #boolean IsReadOnly
+
+return nil

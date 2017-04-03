@@ -1,0 +1,448 @@
+---
+-- @module UnityEngine_Animator
+
+---
+-- @type Animator
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Animator] GetFloat
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetFloat
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetBool
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Animator] SetBool
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetInteger
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetInteger
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] SetTrigger
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] ResetTrigger
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] IsParameterControlledByCurve
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Animator] GetIKPosition
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Animator] SetIKPosition
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetIKRotation
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Quaternion#Quaternion
+
+---
+-- @function [parent=#Animator] SetIKRotation
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetIKPositionWeight
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetIKPositionWeight
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetIKRotationWeight
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetIKRotationWeight
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetIKHintPosition
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Animator] SetIKHintPosition
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetIKHintPositionWeight
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetIKHintPositionWeight
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] SetLookAtPosition
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] SetLookAtWeight
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] SetBoneLocalRotation
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetLayerName
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#Animator] GetLayerIndex
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] GetLayerWeight
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] SetLayerWeight
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetCurrentAnimatorStateInfo
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimatorStateInfo#AnimatorStateInfo
+
+---
+-- @function [parent=#Animator] GetNextAnimatorStateInfo
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimatorStateInfo#AnimatorStateInfo
+
+---
+-- @function [parent=#Animator] GetAnimatorTransitionInfo
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimatorTransitionInfo#AnimatorTransitionInfo
+
+---
+-- @function [parent=#Animator] GetCurrentAnimatorClipInfoCount
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] GetCurrentAnimatorClipInfo
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Animator] GetNextAnimatorClipInfoCount
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] GetNextAnimatorClipInfo
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Animator] IsInTransition
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Animator] GetParameter
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimatorControllerParameter#AnimatorControllerParameter
+
+---
+-- @function [parent=#Animator] MatchTarget
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+
+---
+-- @function [parent=#Animator] InterruptMatchTarget
+-- @param self
+
+---
+-- @function [parent=#Animator] CrossFadeInFixedTime
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] CrossFade
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] PlayInFixedTime
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] Play
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] SetTarget
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animator] GetBoneTransform
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Transform#Transform
+
+---
+-- @function [parent=#Animator] StartPlayback
+-- @param self
+
+---
+-- @function [parent=#Animator] StopPlayback
+-- @param self
+
+---
+-- @function [parent=#Animator] StartRecording
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] StopRecording
+-- @param self
+
+---
+-- @function [parent=#Animator] HasState
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Animator] StringToHash
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Animator] Update
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animator] Rebind
+-- @param self
+
+---
+-- @function [parent=#Animator] ApplyBuiltinRootMotion
+-- @param self
+
+---
+-- @function [parent=#Animator] New
+-- @return UnityEngine_Animator#Animator
+
+---
+-- @field [parent=#Animator] #boolean isOptimizable
+
+---
+-- @field [parent=#Animator] #boolean isHuman
+
+---
+-- @field [parent=#Animator] #boolean hasRootMotion
+
+---
+-- @field [parent=#Animator] #number humanScale
+
+---
+-- @field [parent=#Animator] #boolean isInitialized
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 deltaPosition
+
+---
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion deltaRotation
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 velocity
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 angularVelocity
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 rootPosition
+
+---
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion rootRotation
+
+---
+-- @field [parent=#Animator] #boolean applyRootMotion
+
+---
+-- @field [parent=#Animator] #boolean linearVelocityBlending
+
+---
+-- @field [parent=#Animator] UnityEngine_AnimatorUpdateMode#AnimatorUpdateMode updateMode
+
+---
+-- @field [parent=#Animator] #boolean hasTransformHierarchy
+
+---
+-- @field [parent=#Animator] #number gravityWeight
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 bodyPosition
+
+---
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion bodyRotation
+
+---
+-- @field [parent=#Animator] #boolean stabilizeFeet
+
+---
+-- @field [parent=#Animator] #number layerCount
+
+---
+-- @field [parent=#Animator] System_Array#Array parameters
+
+---
+-- @field [parent=#Animator] #number parameterCount
+
+---
+-- @field [parent=#Animator] #number feetPivotActive
+
+---
+-- @field [parent=#Animator] #number pivotWeight
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 pivotPosition
+
+---
+-- @field [parent=#Animator] #boolean isMatchingTarget
+
+---
+-- @field [parent=#Animator] #number speed
+
+---
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 targetPosition
+
+---
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion targetRotation
+
+---
+-- @field [parent=#Animator] UnityEngine_AnimatorCullingMode#AnimatorCullingMode cullingMode
+
+---
+-- @field [parent=#Animator] #number playbackTime
+
+---
+-- @field [parent=#Animator] #number recorderStartTime
+
+---
+-- @field [parent=#Animator] #number recorderStopTime
+
+---
+-- @field [parent=#Animator] UnityEngine_AnimatorRecorderMode#AnimatorRecorderMode recorderMode
+
+---
+-- @field [parent=#Animator] UnityEngine_RuntimeAnimatorController#RuntimeAnimatorController runtimeAnimatorController
+
+---
+-- @field [parent=#Animator] #boolean hasBoundPlayables
+
+---
+-- @field [parent=#Animator] UnityEngine_Avatar#Avatar avatar
+
+---
+-- @field [parent=#Animator] UnityEngine_Experimental_Director_PlayableGraph#PlayableGraph playableGraph
+
+---
+-- @field [parent=#Animator] #boolean layersAffectMassCenter
+
+---
+-- @field [parent=#Animator] #number leftFeetBottomHeight
+
+---
+-- @field [parent=#Animator] #number rightFeetBottomHeight
+
+---
+-- @field [parent=#Animator] #boolean logWarnings
+
+---
+-- @field [parent=#Animator] #boolean fireEvents
+
+return nil

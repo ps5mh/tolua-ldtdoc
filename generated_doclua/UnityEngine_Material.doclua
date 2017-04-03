@@ -1,0 +1,270 @@
+---
+-- @module UnityEngine_Material
+
+---
+-- @type Material
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#Material] HasProperty
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Material] GetTag
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#Material] SetOverrideTag
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetShaderPassEnabled
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] GetShaderPassEnabled
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Material] Lerp
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Material] SetPass
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Material] GetPassName
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#Material] FindPass
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Material] CopyPropertiesFromMaterial
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Material] EnableKeyword
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Material] DisableKeyword
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Material] IsKeywordEnabled
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Material] SetFloat
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetInt
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetColor
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetVector
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetMatrix
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetTexture
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetBuffer
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetTextureOffset
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetTextureScale
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetFloatArray
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetColorArray
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetVectorArray
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] SetMatrixArray
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Material] GetFloat
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Material] GetInt
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Material] GetColor
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Color#Color
+
+---
+-- @function [parent=#Material] GetVector
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector4#Vector4
+
+---
+-- @function [parent=#Material] GetMatrix
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Matrix4x4#Matrix4x4
+
+---
+-- @function [parent=#Material] GetFloatArray
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Material] GetVectorArray
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Material] GetColorArray
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Material] GetMatrixArray
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Material] GetTexture
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Texture#Texture
+
+---
+-- @function [parent=#Material] GetTextureOffset
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector2#Vector2
+
+---
+-- @function [parent=#Material] GetTextureScale
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector2#Vector2
+
+---
+-- @function [parent=#Material] New
+-- @param arg0
+-- @return UnityEngine_Material#Material
+
+---
+-- @field [parent=#Material] UnityEngine_Shader#Shader shader
+
+---
+-- @field [parent=#Material] UnityEngine_Color#Color color
+
+---
+-- @field [parent=#Material] UnityEngine_Texture#Texture mainTexture
+
+---
+-- @field [parent=#Material] UnityEngine_Vector2#Vector2 mainTextureOffset
+
+---
+-- @field [parent=#Material] UnityEngine_Vector2#Vector2 mainTextureScale
+
+---
+-- @field [parent=#Material] #number passCount
+
+---
+-- @field [parent=#Material] #number renderQueue
+
+---
+-- @field [parent=#Material] System_Array#Array shaderKeywords
+
+---
+-- @field [parent=#Material] UnityEngine_MaterialGlobalIlluminationFlags#MaterialGlobalIlluminationFlags globalIlluminationFlags
+
+---
+-- @field [parent=#Material] #boolean enableInstancing
+
+return nil

@@ -1,0 +1,18 @@
+---
+-- @module UnityEngine_SphereCollider
+
+---
+-- @type SphereCollider
+-- @extends UnityEngine_Collider#Collider
+
+---
+-- @function [parent=#SphereCollider] New
+-- @return UnityEngine_SphereCollider#SphereCollider
+
+---
+-- @field [parent=#SphereCollider] UnityEngine_Vector3#Vector3 center
+
+---
+-- @field [parent=#SphereCollider] #number radius
+
+return nil

@@ -1,0 +1,17 @@
+---
+-- @module UnityEngine_QueueMode
+
+---
+-- @type QueueMode
+
+---
+-- @function [parent=#QueueMode] IntToEnum
+-- @return UnityEngine_QueueMode#QueueMode
+
+---
+-- @field [parent=#QueueMode] UnityEngine_QueueMode#QueueMode CompleteOthers
+
+---
+-- @field [parent=#QueueMode] UnityEngine_QueueMode#QueueMode PlayNow
+
+return nil

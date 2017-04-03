@@ -1,0 +1,78 @@
+---
+-- @module UnityEngine_Component
+
+---
+-- @type Component
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#Component] GetComponent
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#Component] GetComponentInChildren
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#Component] GetComponentsInChildren
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Component] GetComponentInParent
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#Component] GetComponentsInParent
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Component] GetComponents
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Component] CompareTag
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Component] SendMessageUpwards
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Component] SendMessage
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Component] BroadcastMessage
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Component] New
+-- @return UnityEngine_Component#Component
+
+---
+-- @field [parent=#Component] UnityEngine_Transform#Transform transform
+
+---
+-- @field [parent=#Component] UnityEngine_GameObject#GameObject gameObject
+
+---
+-- @field [parent=#Component] #string tag
+
+return nil

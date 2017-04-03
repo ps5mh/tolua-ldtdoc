@@ -1,0 +1,24 @@
+---
+-- @module UnityEngine_AsyncOperation
+
+---
+-- @type AsyncOperation
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#AsyncOperation] New
+-- @return UnityEngine_AsyncOperation#AsyncOperation
+
+---
+-- @field [parent=#AsyncOperation] #boolean isDone
+
+---
+-- @field [parent=#AsyncOperation] #number progress
+
+---
+-- @field [parent=#AsyncOperation] #number priority
+
+---
+-- @field [parent=#AsyncOperation] #boolean allowSceneActivation
+
+return nil

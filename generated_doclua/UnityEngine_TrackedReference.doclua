@@ -1,0 +1,19 @@
+---
+-- @module UnityEngine_TrackedReference
+
+---
+-- @type TrackedReference
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#TrackedReference] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#TrackedReference] GetHashCode
+-- @param self
+-- @return #number
+
+return nil

@@ -1,0 +1,110 @@
+---
+-- @module UnityEngine_Animation
+
+---
+-- @type Animation
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Animation] Stop
+-- @param self
+
+---
+-- @function [parent=#Animation] Rewind
+-- @param self
+
+---
+-- @function [parent=#Animation] Sample
+-- @param self
+
+---
+-- @function [parent=#Animation] IsPlaying
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Animation] Play
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#Animation] CrossFade
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animation] Blend
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animation] CrossFadeQueued
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimationState#AnimationState
+
+---
+-- @function [parent=#Animation] PlayQueued
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimationState#AnimationState
+
+---
+-- @function [parent=#Animation] AddClip
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Animation] RemoveClip
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animation] GetClipCount
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Animation] SyncLayer
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Animation] GetEnumerator
+-- @param self
+-- @return System_Collections_IEnumerator#IEnumerator
+
+---
+-- @function [parent=#Animation] GetClip
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimationClip#AnimationClip
+
+---
+-- @function [parent=#Animation] New
+-- @return UnityEngine_Animation#Animation
+
+---
+-- @field [parent=#Animation] UnityEngine_AnimationClip#AnimationClip clip
+
+---
+-- @field [parent=#Animation] #boolean playAutomatically
+
+---
+-- @field [parent=#Animation] UnityEngine_WrapMode#WrapMode wrapMode
+
+---
+-- @field [parent=#Animation] #boolean isPlaying
+
+---
+-- @field [parent=#Animation] #boolean animatePhysics
+
+---
+-- @field [parent=#Animation] UnityEngine_AnimationCullingType#AnimationCullingType cullingType
+
+---
+-- @field [parent=#Animation] UnityEngine_Bounds#Bounds localBounds
+
+return nil

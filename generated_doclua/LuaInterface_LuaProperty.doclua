@@ -1,0 +1,16 @@
+---
+-- @module LuaInterface_LuaProperty
+
+---
+-- @type LuaProperty
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#LuaProperty] Get
+-- @param self
+
+---
+-- @function [parent=#LuaProperty] Set
+-- @param self
+
+return nil

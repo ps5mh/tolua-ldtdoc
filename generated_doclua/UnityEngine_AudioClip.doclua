@@ -1,0 +1,69 @@
+---
+-- @module UnityEngine_AudioClip
+
+---
+-- @type AudioClip
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#AudioClip] LoadAudioData
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#AudioClip] UnloadAudioData
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#AudioClip] GetData
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#AudioClip] SetData
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#AudioClip] Create
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return UnityEngine_AudioClip#AudioClip
+
+---
+-- @function [parent=#AudioClip] New
+-- @return UnityEngine_AudioClip#AudioClip
+
+---
+-- @field [parent=#AudioClip] #number length
+
+---
+-- @field [parent=#AudioClip] #number samples
+
+---
+-- @field [parent=#AudioClip] #number channels
+
+---
+-- @field [parent=#AudioClip] #number frequency
+
+---
+-- @field [parent=#AudioClip] UnityEngine_AudioClipLoadType#AudioClipLoadType loadType
+
+---
+-- @field [parent=#AudioClip] #boolean preloadAudioData
+
+---
+-- @field [parent=#AudioClip] UnityEngine_AudioDataLoadState#AudioDataLoadState loadState
+
+---
+-- @field [parent=#AudioClip] #boolean loadInBackground
+
+return nil

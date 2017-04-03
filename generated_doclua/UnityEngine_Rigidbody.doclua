@@ -1,0 +1,181 @@
+---
+-- @module UnityEngine_Rigidbody
+
+---
+-- @type Rigidbody
+-- @extends UnityEngine_Component#Component
+
+---
+-- @function [parent=#Rigidbody] SetDensity
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] AddForce
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] AddRelativeForce
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] AddTorque
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] AddRelativeTorque
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] AddForceAtPosition
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Rigidbody] AddExplosionForce
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Rigidbody] ClosestPointOnBounds
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Rigidbody] GetRelativePointVelocity
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Rigidbody] GetPointVelocity
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Rigidbody] MovePosition
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] MoveRotation
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Rigidbody] Sleep
+-- @param self
+
+---
+-- @function [parent=#Rigidbody] IsSleeping
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#Rigidbody] WakeUp
+-- @param self
+
+---
+-- @function [parent=#Rigidbody] ResetCenterOfMass
+-- @param self
+
+---
+-- @function [parent=#Rigidbody] ResetInertiaTensor
+-- @param self
+
+---
+-- @function [parent=#Rigidbody] SweepTest
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Rigidbody] SweepTestAll
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Rigidbody] New
+-- @return UnityEngine_Rigidbody#Rigidbody
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 velocity
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 angularVelocity
+
+---
+-- @field [parent=#Rigidbody] #number drag
+
+---
+-- @field [parent=#Rigidbody] #number angularDrag
+
+---
+-- @field [parent=#Rigidbody] #number mass
+
+---
+-- @field [parent=#Rigidbody] #boolean useGravity
+
+---
+-- @field [parent=#Rigidbody] #number maxDepenetrationVelocity
+
+---
+-- @field [parent=#Rigidbody] #boolean isKinematic
+
+---
+-- @field [parent=#Rigidbody] #boolean freezeRotation
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_RigidbodyConstraints#RigidbodyConstraints constraints
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_CollisionDetectionMode#CollisionDetectionMode collisionDetectionMode
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 centerOfMass
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 worldCenterOfMass
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Quaternion#Quaternion inertiaTensorRotation
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 inertiaTensor
+
+---
+-- @field [parent=#Rigidbody] #boolean detectCollisions
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 position
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_Quaternion#Quaternion rotation
+
+---
+-- @field [parent=#Rigidbody] UnityEngine_RigidbodyInterpolation#RigidbodyInterpolation interpolation
+
+---
+-- @field [parent=#Rigidbody] #number solverIterations
+
+---
+-- @field [parent=#Rigidbody] #number solverVelocityIterations
+
+---
+-- @field [parent=#Rigidbody] #number sleepThreshold
+
+---
+-- @field [parent=#Rigidbody] #number maxAngularVelocity
+
+return nil

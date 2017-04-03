@@ -1,0 +1,374 @@
+---
+-- @module System_Type
+
+---
+-- @type Type
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#Type] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Type] GetType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetTypeArray
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] GetTypeCode
+-- @param arg0
+-- @return System_TypeCode#TypeCode
+
+---
+-- @function [parent=#Type] GetTypeFromCLSID
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetTypeFromHandle
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetTypeFromProgID
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetTypeHandle
+-- @param arg0
+-- @return System_RuntimeTypeHandle#RuntimeTypeHandle
+
+---
+-- @function [parent=#Type] IsSubclassOf
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Type] FindInterfaces
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] GetInterface
+-- @param self
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetInterfaceMap
+-- @param self
+-- @param arg0
+-- @return System_Reflection_InterfaceMapping#InterfaceMapping
+
+---
+-- @function [parent=#Type] GetInterfaces
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] IsAssignableFrom
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Type] IsInstanceOfType
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Type] GetArrayRank
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Type] GetElementType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Type] GetNestedType
+-- @param self
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetNestedTypes
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] GetDefaultMembers
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] FindMembers
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] InvokeMember
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return object#object
+
+---
+-- @function [parent=#Type] ToString
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#Type] GetGenericArguments
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] GetGenericTypeDefinition
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] MakeGenericType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] GetGenericParameterConstraints
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Type] MakeArrayType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] MakeByRefType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] MakePointerType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Type] ReflectionOnlyGetType
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return System_Type#Type
+
+---
+-- @field [parent=#Type] #number Delimiter
+
+---
+-- @field [parent=#Type] System_Type#Type EmptyTypes
+
+---
+-- @field [parent=#Type] System_Type#Type FilterAttribute
+
+---
+-- @field [parent=#Type] System_Type#Type FilterName
+
+---
+-- @field [parent=#Type] System_Type#Type FilterNameIgnoreCase
+
+---
+-- @field [parent=#Type] System_Type#Type Missing
+
+---
+-- @field [parent=#Type] System_Reflection_Assembly#Assembly Assembly
+
+---
+-- @field [parent=#Type] #string AssemblyQualifiedName
+
+---
+-- @field [parent=#Type] System_Reflection_TypeAttributes#TypeAttributes Attributes
+
+---
+-- @field [parent=#Type] System_Type#Type BaseType
+
+---
+-- @field [parent=#Type] System_Type#Type DeclaringType
+
+---
+-- @field [parent=#Type] DefaultBinder
+
+---
+-- @field [parent=#Type] #string FullName
+
+---
+-- @field [parent=#Type] System_Guid#Guid GUID
+
+---
+-- @field [parent=#Type] #boolean HasElementType
+
+---
+-- @field [parent=#Type] #boolean IsAbstract
+
+---
+-- @field [parent=#Type] #boolean IsAnsiClass
+
+---
+-- @field [parent=#Type] #boolean IsArray
+
+---
+-- @field [parent=#Type] #boolean IsAutoClass
+
+---
+-- @field [parent=#Type] #boolean IsAutoLayout
+
+---
+-- @field [parent=#Type] #boolean IsByRef
+
+---
+-- @field [parent=#Type] #boolean IsClass
+
+---
+-- @field [parent=#Type] #boolean IsCOMObject
+
+---
+-- @field [parent=#Type] #boolean IsContextful
+
+---
+-- @field [parent=#Type] #boolean IsEnum
+
+---
+-- @field [parent=#Type] #boolean IsExplicitLayout
+
+---
+-- @field [parent=#Type] #boolean IsImport
+
+---
+-- @field [parent=#Type] #boolean IsInterface
+
+---
+-- @field [parent=#Type] #boolean IsLayoutSequential
+
+---
+-- @field [parent=#Type] #boolean IsMarshalByRef
+
+---
+-- @field [parent=#Type] #boolean IsNestedAssembly
+
+---
+-- @field [parent=#Type] #boolean IsNestedFamANDAssem
+
+---
+-- @field [parent=#Type] #boolean IsNestedFamily
+
+---
+-- @field [parent=#Type] #boolean IsNestedFamORAssem
+
+---
+-- @field [parent=#Type] #boolean IsNestedPrivate
+
+---
+-- @field [parent=#Type] #boolean IsNestedPublic
+
+---
+-- @field [parent=#Type] #boolean IsNotPublic
+
+---
+-- @field [parent=#Type] #boolean IsPointer
+
+---
+-- @field [parent=#Type] #boolean IsPrimitive
+
+---
+-- @field [parent=#Type] #boolean IsPublic
+
+---
+-- @field [parent=#Type] #boolean IsSealed
+
+---
+-- @field [parent=#Type] #boolean IsSerializable
+
+---
+-- @field [parent=#Type] #boolean IsSpecialName
+
+---
+-- @field [parent=#Type] #boolean IsUnicodeClass
+
+---
+-- @field [parent=#Type] #boolean IsValueType
+
+---
+-- @field [parent=#Type] System_Reflection_MemberTypes#MemberTypes MemberType
+
+---
+-- @field [parent=#Type] System_Reflection_Module#Module Module
+
+---
+-- @field [parent=#Type] #string Namespace
+
+---
+-- @field [parent=#Type] System_Type#Type ReflectedType
+
+---
+-- @field [parent=#Type] System_RuntimeTypeHandle#RuntimeTypeHandle TypeHandle
+
+---
+-- @field [parent=#Type] System_Reflection_ConstructorInfo#ConstructorInfo TypeInitializer
+
+---
+-- @field [parent=#Type] System_Type#Type UnderlyingSystemType
+
+---
+-- @field [parent=#Type] #boolean ContainsGenericParameters
+
+---
+-- @field [parent=#Type] #boolean IsGenericTypeDefinition
+
+---
+-- @field [parent=#Type] #boolean IsGenericType
+
+---
+-- @field [parent=#Type] #boolean IsGenericParameter
+
+---
+-- @field [parent=#Type] #boolean IsNested
+
+---
+-- @field [parent=#Type] #boolean IsVisible
+
+---
+-- @field [parent=#Type] #number GenericParameterPosition
+
+---
+-- @field [parent=#Type] System_Reflection_GenericParameterAttributes#GenericParameterAttributes GenericParameterAttributes
+
+---
+-- @field [parent=#Type] System_Reflection_MethodBase#MethodBase DeclaringMethod
+
+---
+-- @field [parent=#Type] System_Runtime_InteropServices_StructLayoutAttribute#StructLayoutAttribute StructLayoutAttribute
+
+return nil

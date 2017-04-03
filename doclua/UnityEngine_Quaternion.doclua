@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Quaternion
+
+---
+-- @type Quaternion
+-- @extends UnityEngine.Quaternion#Quaternion
+
+return nil

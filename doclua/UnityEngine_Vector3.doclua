@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Vector3
+
+---
+-- @type Vector3
+-- @extends UnityEngine.Vector3#Vector3
+
+return nil

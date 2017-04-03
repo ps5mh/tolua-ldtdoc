@@ -1,0 +1,32 @@
+---
+-- @module LuaInterface_Debugger
+
+---
+-- @type Debugger
+
+---
+-- @function [parent=#Debugger] Log
+-- @param arg0
+
+---
+-- @function [parent=#Debugger] LogWarning
+-- @param arg0
+
+---
+-- @function [parent=#Debugger] LogError
+-- @param arg0
+
+---
+-- @function [parent=#Debugger] LogException
+-- @param arg0
+
+---
+-- @field [parent=#Debugger] #boolean useLog
+
+---
+-- @field [parent=#Debugger] #string threadStack
+
+---
+-- @field [parent=#Debugger] logger
+
+return nil

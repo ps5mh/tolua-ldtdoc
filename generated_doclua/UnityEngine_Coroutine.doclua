@@ -1,0 +1,7 @@
+---
+-- @module UnityEngine_Coroutine
+
+---
+-- @type Coroutine
+
+return nil

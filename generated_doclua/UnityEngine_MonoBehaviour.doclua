@@ -1,0 +1,52 @@
+---
+-- @module UnityEngine_MonoBehaviour
+
+---
+-- @type MonoBehaviour
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#MonoBehaviour] Invoke
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#MonoBehaviour] InvokeRepeating
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#MonoBehaviour] CancelInvoke
+-- @param self
+
+---
+-- @function [parent=#MonoBehaviour] IsInvoking
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#MonoBehaviour] StartCoroutine
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Coroutine#Coroutine
+
+---
+-- @function [parent=#MonoBehaviour] StopCoroutine
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#MonoBehaviour] StopAllCoroutines
+-- @param self
+
+---
+-- @function [parent=#MonoBehaviour] print
+-- @param arg0
+
+---
+-- @field [parent=#MonoBehaviour] #boolean useGUILayout
+
+return nil

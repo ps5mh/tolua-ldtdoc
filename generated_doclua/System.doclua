@@ -1,0 +1,25 @@
+---
+-- @module System
+
+---
+-- @field [parent=#System] System_Array#Array Array
+
+---
+-- @field [parent=#System] System_Delegate#Delegate Delegate
+
+---
+-- @field [parent=#System] System_Enum#Enum Enum
+
+---
+-- @field [parent=#System] System_NullObject#NullObject NullObject
+
+---
+-- @field [parent=#System] System_Object#Object Object
+
+---
+-- @field [parent=#System] System_String#String String
+
+---
+-- @field [parent=#System] System_Type#Type Type
+
+return nil

@@ -1,0 +1,175 @@
+---
+-- @module UnityEngine
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AnimationBlendMode#AnimationBlendMode AnimationBlendMode
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AnimationClip#AnimationClip AnimationClip
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AnimationState#AnimationState AnimationState
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Animation#Animation Animation
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Animator#Animator Animator
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Application#Application Application
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AssetBundle#AssetBundle AssetBundle
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AsyncOperation#AsyncOperation AsyncOperation
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AudioClip#AudioClip AudioClip
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_AudioSource#AudioSource AudioSource
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Behaviour#Behaviour Behaviour
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_BlendWeights#BlendWeights BlendWeights
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_BoxCollider#BoxCollider BoxCollider
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_CameraClearFlags#CameraClearFlags CameraClearFlags
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Camera#Camera Camera
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_CapsuleCollider#CapsuleCollider CapsuleCollider
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_CharacterController#CharacterController CharacterController
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Collider2D#Collider2D Collider2D
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Collider#Collider Collider
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Component#Component Component
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_GameObject#GameObject GameObject
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Input#Input Input
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_KeyCode#KeyCode KeyCode
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_LightType#LightType LightType
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Light#Light Light
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Material#Material Material
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_MeshCollider#MeshCollider MeshCollider
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_MeshRenderer#MeshRenderer MeshRenderer
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_MonoBehaviour#MonoBehaviour MonoBehaviour
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_ParticleSystem#ParticleSystem ParticleSystem
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Physics2D#Physics2D Physics2D
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Physics#Physics Physics
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_PlayMode#PlayMode PlayMode
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_QualitySettings#QualitySettings QualitySettings
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_QueueMode#QueueMode QueueMode
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Renderer#Renderer Renderer
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_RenderSettings#RenderSettings RenderSettings
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_RenderTexture#RenderTexture RenderTexture
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Resources#Resources Resources
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Rigidbody#Rigidbody Rigidbody
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Screen#Screen Screen
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Shader#Shader Shader
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_SkinnedMeshRenderer#SkinnedMeshRenderer SkinnedMeshRenderer
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_SleepTimeout#SleepTimeout SleepTimeout
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Space#Space Space
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_SphereCollider#SphereCollider SphereCollider
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_SpriteRenderer#SpriteRenderer SpriteRenderer
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Sprite#Sprite Sprite
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Texture2D#Texture2D Texture2D
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Texture#Texture Texture
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Time#Time Time
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_TrackedReference#TrackedReference TrackedReference
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Transform#Transform Transform
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_WrapMode#WrapMode WrapMode
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_WWW#WWW WWW
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Coroutine#Coroutine Coroutine
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Object#Object Object
+
+return nil

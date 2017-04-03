@@ -1,0 +1,24 @@
+---
+-- @module UnityEngine_CapsuleCollider
+
+---
+-- @type CapsuleCollider
+-- @extends UnityEngine_Collider#Collider
+
+---
+-- @function [parent=#CapsuleCollider] New
+-- @return UnityEngine_CapsuleCollider#CapsuleCollider
+
+---
+-- @field [parent=#CapsuleCollider] UnityEngine_Vector3#Vector3 center
+
+---
+-- @field [parent=#CapsuleCollider] #number radius
+
+---
+-- @field [parent=#CapsuleCollider] #number height
+
+---
+-- @field [parent=#CapsuleCollider] #number direction
+
+return nil

@@ -1,0 +1,87 @@
+---
+-- @module UnityEngine_WWW
+
+---
+-- @type WWW
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#WWW] Dispose
+-- @param self
+
+---
+-- @function [parent=#WWW] InitWWW
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#WWW] EscapeURL
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#WWW] UnEscapeURL
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#WWW] LoadImageIntoTexture
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#WWW] LoadFromCacheOrDownload
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_WWW#WWW
+
+---
+-- @function [parent=#WWW] New
+-- @param arg0
+-- @return UnityEngine_WWW#WWW
+
+---
+-- @field [parent=#WWW] System_Collections_Generic_Dictionary<string,string>#Dictionary<string,string> responseHeaders
+
+---
+-- @field [parent=#WWW] #string text
+
+---
+-- @field [parent=#WWW] System_Array#Array bytes
+
+---
+-- @field [parent=#WWW] #number size
+
+---
+-- @field [parent=#WWW] #string error
+
+---
+-- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D texture
+
+---
+-- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D textureNonReadable
+
+---
+-- @field [parent=#WWW] #boolean isDone
+
+---
+-- @field [parent=#WWW] #number progress
+
+---
+-- @field [parent=#WWW] #number uploadProgress
+
+---
+-- @field [parent=#WWW] #number bytesDownloaded
+
+---
+-- @field [parent=#WWW] #string url
+
+---
+-- @field [parent=#WWW] UnityEngine_AssetBundle#AssetBundle assetBundle
+
+---
+-- @field [parent=#WWW] UnityEngine_ThreadPriority#ThreadPriority threadPriority
+
+return nil

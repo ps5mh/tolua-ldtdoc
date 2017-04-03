@@ -1,0 +1,49 @@
+---
+-- @module UnityEngine_Screen
+
+---
+-- @type Screen
+
+---
+-- @function [parent=#Screen] SetResolution
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @field [parent=#Screen] UnityEngine_Screen#Screen resolutions
+
+---
+-- @field [parent=#Screen] currentResolution
+
+---
+-- @field [parent=#Screen] #number width
+
+---
+-- @field [parent=#Screen] #number height
+
+---
+-- @field [parent=#Screen] #number dpi
+
+---
+-- @field [parent=#Screen] #boolean fullScreen
+
+---
+-- @field [parent=#Screen] #boolean autorotateToPortrait
+
+---
+-- @field [parent=#Screen] #boolean autorotateToPortraitUpsideDown
+
+---
+-- @field [parent=#Screen] #boolean autorotateToLandscapeLeft
+
+---
+-- @field [parent=#Screen] #boolean autorotateToLandscapeRight
+
+---
+-- @field [parent=#Screen] UnityEngine_Screen#Screen orientation
+
+---
+-- @field [parent=#Screen] #number sleepTimeout
+
+return nil

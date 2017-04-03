@@ -1,0 +1,66 @@
+---
+-- @module UnityEngine_Object
+
+---
+-- @type Object
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#Object] FindObjectsOfType
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Object] DontDestroyOnLoad
+-- @param arg0
+
+---
+-- @function [parent=#Object] ToString
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#Object] GetInstanceID
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Object] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Object] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Object] FindObjectOfType
+-- @param arg0
+-- @return UnityEngine_Object#Object
+
+---
+-- @function [parent=#Object] Instantiate
+-- @param arg0
+-- @return UnityEngine_Object#Object
+
+---
+-- @function [parent=#Object] DestroyImmediate
+-- @param arg0
+
+---
+-- @function [parent=#Object] Destroy
+-- @param arg0
+
+---
+-- @function [parent=#Object] New
+-- @return UnityEngine_Object#Object
+
+---
+-- @field [parent=#Object] #string name
+
+---
+-- @field [parent=#Object] UnityEngine_HideFlags#HideFlags hideFlags
+
+return nil

@@ -1,0 +1,362 @@
+---
+-- @module UnityEngine_Camera
+
+---
+-- @type Camera
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Camera] SetTargetBuffers
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] ResetWorldToCameraMatrix
+-- @param self
+
+---
+-- @function [parent=#Camera] ResetProjectionMatrix
+-- @param self
+
+---
+-- @function [parent=#Camera] ResetAspect
+-- @param self
+
+---
+-- @function [parent=#Camera] GetStereoViewMatrix
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Matrix4x4#Matrix4x4
+
+---
+-- @function [parent=#Camera] SetStereoViewMatrix
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] ResetStereoViewMatrices
+-- @param self
+
+---
+-- @function [parent=#Camera] GetStereoProjectionMatrix
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Matrix4x4#Matrix4x4
+
+---
+-- @function [parent=#Camera] SetStereoProjectionMatrix
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] CalculateFrustumCorners
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#Camera] ResetStereoProjectionMatrices
+-- @param self
+
+---
+-- @function [parent=#Camera] ResetTransparencySortSettings
+-- @param self
+
+---
+-- @function [parent=#Camera] WorldToScreenPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] WorldToViewportPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] ViewportToWorldPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] ScreenToWorldPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] ScreenToViewportPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] ViewportToScreenPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Camera] ViewportPointToRay
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Ray#Ray
+
+---
+-- @function [parent=#Camera] ScreenPointToRay
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Ray#Ray
+
+---
+-- @function [parent=#Camera] GetAllCameras
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Camera] Render
+-- @param self
+
+---
+-- @function [parent=#Camera] RenderWithShader
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] SetReplacementShader
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] ResetReplacementShader
+-- @param self
+
+---
+-- @function [parent=#Camera] ResetCullingMatrix
+-- @param self
+
+---
+-- @function [parent=#Camera] RenderDontRestore
+-- @param self
+
+---
+-- @function [parent=#Camera] SetupCurrent
+-- @param arg0
+
+---
+-- @function [parent=#Camera] RenderToCubemap
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Camera] CopyFrom
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Camera] AddCommandBuffer
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] RemoveCommandBuffer
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Camera] RemoveCommandBuffers
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Camera] RemoveAllCommandBuffers
+-- @param self
+
+---
+-- @function [parent=#Camera] GetCommandBuffers
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Camera] CalculateObliqueMatrix
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Matrix4x4#Matrix4x4
+
+---
+-- @function [parent=#Camera] New
+-- @return UnityEngine_Camera#Camera
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera onPreCull
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera onPreRender
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera onPostRender
+
+---
+-- @field [parent=#Camera] #number fieldOfView
+
+---
+-- @field [parent=#Camera] #number nearClipPlane
+
+---
+-- @field [parent=#Camera] #number farClipPlane
+
+---
+-- @field [parent=#Camera] UnityEngine_RenderingPath#RenderingPath renderingPath
+
+---
+-- @field [parent=#Camera] UnityEngine_RenderingPath#RenderingPath actualRenderingPath
+
+---
+-- @field [parent=#Camera] #boolean allowHDR
+
+---
+-- @field [parent=#Camera] #boolean forceIntoRenderTexture
+
+---
+-- @field [parent=#Camera] #boolean allowMSAA
+
+---
+-- @field [parent=#Camera] #number orthographicSize
+
+---
+-- @field [parent=#Camera] #boolean orthographic
+
+---
+-- @field [parent=#Camera] UnityEngine_Rendering_OpaqueSortMode#OpaqueSortMode opaqueSortMode
+
+---
+-- @field [parent=#Camera] UnityEngine_TransparencySortMode#TransparencySortMode transparencySortMode
+
+---
+-- @field [parent=#Camera] UnityEngine_Vector3#Vector3 transparencySortAxis
+
+---
+-- @field [parent=#Camera] #number depth
+
+---
+-- @field [parent=#Camera] #number aspect
+
+---
+-- @field [parent=#Camera] #number cullingMask
+
+---
+-- @field [parent=#Camera] #number eventMask
+
+---
+-- @field [parent=#Camera] UnityEngine_Color#Color backgroundColor
+
+---
+-- @field [parent=#Camera] UnityEngine_Rect#Rect rect
+
+---
+-- @field [parent=#Camera] UnityEngine_Rect#Rect pixelRect
+
+---
+-- @field [parent=#Camera] UnityEngine_RenderTexture#RenderTexture targetTexture
+
+---
+-- @field [parent=#Camera] UnityEngine_RenderTexture#RenderTexture activeTexture
+
+---
+-- @field [parent=#Camera] #number pixelWidth
+
+---
+-- @field [parent=#Camera] #number pixelHeight
+
+---
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 cameraToWorldMatrix
+
+---
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 worldToCameraMatrix
+
+---
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 projectionMatrix
+
+---
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 nonJitteredProjectionMatrix
+
+---
+-- @field [parent=#Camera] #boolean useJitteredProjectionMatrixForTransparentRendering
+
+---
+-- @field [parent=#Camera] UnityEngine_Vector3#Vector3 velocity
+
+---
+-- @field [parent=#Camera] UnityEngine_CameraClearFlags#CameraClearFlags clearFlags
+
+---
+-- @field [parent=#Camera] #boolean stereoEnabled
+
+---
+-- @field [parent=#Camera] #number stereoSeparation
+
+---
+-- @field [parent=#Camera] #number stereoConvergence
+
+---
+-- @field [parent=#Camera] UnityEngine_CameraType#CameraType cameraType
+
+---
+-- @field [parent=#Camera] #boolean stereoMirrorMode
+
+---
+-- @field [parent=#Camera] UnityEngine_StereoTargetEyeMask#StereoTargetEyeMask stereoTargetEye
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera_MonoOrStereoscopicEye#MonoOrStereoscopicEye stereoActiveEye
+
+---
+-- @field [parent=#Camera] #number targetDisplay
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera main
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera current
+
+---
+-- @field [parent=#Camera] UnityEngine_Camera#Camera allCameras
+
+---
+-- @field [parent=#Camera] #number allCamerasCount
+
+---
+-- @field [parent=#Camera] #boolean useOcclusionCulling
+
+---
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 cullingMatrix
+
+---
+-- @field [parent=#Camera] System_Array#Array layerCullDistances
+
+---
+-- @field [parent=#Camera] #boolean layerCullSpherical
+
+---
+-- @field [parent=#Camera] UnityEngine_DepthTextureMode#DepthTextureMode depthTextureMode
+
+---
+-- @field [parent=#Camera] #boolean clearStencilAfterLightingPass
+
+---
+-- @field [parent=#Camera] #number commandBufferCount
+
+return nil

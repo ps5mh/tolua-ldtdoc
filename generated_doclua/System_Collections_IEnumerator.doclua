@@ -1,0 +1,19 @@
+---
+-- @module System_Collections_IEnumerator
+
+---
+-- @type IEnumerator
+
+---
+-- @function [parent=#IEnumerator] MoveNext
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#IEnumerator] Reset
+-- @param self
+
+---
+-- @field [parent=#IEnumerator] object#object Current
+
+return nil

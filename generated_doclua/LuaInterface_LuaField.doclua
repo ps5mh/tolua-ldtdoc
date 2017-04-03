@@ -1,0 +1,16 @@
+---
+-- @module LuaInterface_LuaField
+
+---
+-- @type LuaField
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#LuaField] Get
+-- @param self
+
+---
+-- @function [parent=#LuaField] Set
+-- @param self
+
+return nil

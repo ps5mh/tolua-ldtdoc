@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Touch
+
+---
+-- @type Touch
+-- @extends UnityEngine.Touch#Touch
+
+return nil

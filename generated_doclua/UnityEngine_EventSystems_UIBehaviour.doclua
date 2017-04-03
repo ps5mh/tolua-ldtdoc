@@ -1,0 +1,18 @@
+---
+-- @module UnityEngine_EventSystems_UIBehaviour
+
+---
+-- @type UIBehaviour
+-- @extends UnityEngine_MonoBehaviour#MonoBehaviour
+
+---
+-- @function [parent=#UIBehaviour] IsActive
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#UIBehaviour] IsDestroyed
+-- @param self
+-- @return #boolean
+
+return nil

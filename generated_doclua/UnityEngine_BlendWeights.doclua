@@ -1,0 +1,20 @@
+---
+-- @module UnityEngine_BlendWeights
+
+---
+-- @type BlendWeights
+
+---
+-- @function [parent=#BlendWeights] IntToEnum
+-- @return UnityEngine_BlendWeights#BlendWeights
+
+---
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights OneBone
+
+---
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights TwoBones
+
+---
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights FourBones
+
+return nil

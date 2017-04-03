@@ -1,0 +1,104 @@
+---
+-- @module UnityEngine_QualitySettings
+
+---
+-- @type QualitySettings
+
+---
+-- @function [parent=#QualitySettings] GetQualityLevel
+-- @return #number
+
+---
+-- @function [parent=#QualitySettings] SetQualityLevel
+-- @param arg0
+
+---
+-- @function [parent=#QualitySettings] IncreaseLevel
+-- @param arg0
+
+---
+-- @function [parent=#QualitySettings] DecreaseLevel
+-- @param arg0
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings names
+
+---
+-- @field [parent=#QualitySettings] #number pixelLightCount
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadows
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowProjection
+
+---
+-- @field [parent=#QualitySettings] #number shadowCascades
+
+---
+-- @field [parent=#QualitySettings] #number shadowDistance
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowResolution
+
+---
+-- @field [parent=#QualitySettings] #number shadowNearPlaneOffset
+
+---
+-- @field [parent=#QualitySettings] #number shadowCascade2Split
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowCascade4Split
+
+---
+-- @field [parent=#QualitySettings] #number masterTextureLimit
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings anisotropicFiltering
+
+---
+-- @field [parent=#QualitySettings] #number lodBias
+
+---
+-- @field [parent=#QualitySettings] #number maximumLODLevel
+
+---
+-- @field [parent=#QualitySettings] #number particleRaycastBudget
+
+---
+-- @field [parent=#QualitySettings] #boolean softParticles
+
+---
+-- @field [parent=#QualitySettings] #boolean softVegetation
+
+---
+-- @field [parent=#QualitySettings] #boolean realtimeReflectionProbes
+
+---
+-- @field [parent=#QualitySettings] #boolean billboardsFaceCameraPosition
+
+---
+-- @field [parent=#QualitySettings] #number maxQueuedFrames
+
+---
+-- @field [parent=#QualitySettings] #number vSyncCount
+
+---
+-- @field [parent=#QualitySettings] #number antiAliasing
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings desiredColorSpace
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings activeColorSpace
+
+---
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings blendWeights
+
+---
+-- @field [parent=#QualitySettings] #number asyncUploadTimeSlice
+
+---
+-- @field [parent=#QualitySettings] #number asyncUploadBufferSize
+
+return nil

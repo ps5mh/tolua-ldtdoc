@@ -1,0 +1,60 @@
+---
+-- @module UnityEngine_AnimationClip
+
+---
+-- @type AnimationClip
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#AnimationClip] SampleAnimation
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#AnimationClip] SetCurve
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#AnimationClip] EnsureQuaternionContinuity
+-- @param self
+
+---
+-- @function [parent=#AnimationClip] ClearCurves
+-- @param self
+
+---
+-- @function [parent=#AnimationClip] AddEvent
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AnimationClip] New
+-- @return UnityEngine_AnimationClip#AnimationClip
+
+---
+-- @field [parent=#AnimationClip] #number length
+
+---
+-- @field [parent=#AnimationClip] #number frameRate
+
+---
+-- @field [parent=#AnimationClip] UnityEngine_WrapMode#WrapMode wrapMode
+
+---
+-- @field [parent=#AnimationClip] UnityEngine_Bounds#Bounds localBounds
+
+---
+-- @field [parent=#AnimationClip] #boolean legacy
+
+---
+-- @field [parent=#AnimationClip] #boolean humanMotion
+
+---
+-- @field [parent=#AnimationClip] System_Array#Array events
+
+return nil

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Color
+
+---
+-- @type Color
+-- @extends UnityEngine.Color#Color
+
+return nil

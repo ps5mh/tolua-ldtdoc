@@ -1,0 +1,61 @@
+---
+-- @module UnityEngine_Time
+
+---
+-- @type Time
+
+---
+-- @field [parent=#Time] #number time
+
+---
+-- @field [parent=#Time] #number timeSinceLevelLoad
+
+---
+-- @field [parent=#Time] #number deltaTime
+
+---
+-- @field [parent=#Time] #number fixedTime
+
+---
+-- @field [parent=#Time] #number unscaledTime
+
+---
+-- @field [parent=#Time] #number fixedUnscaledTime
+
+---
+-- @field [parent=#Time] #number unscaledDeltaTime
+
+---
+-- @field [parent=#Time] #number fixedUnscaledDeltaTime
+
+---
+-- @field [parent=#Time] #number fixedDeltaTime
+
+---
+-- @field [parent=#Time] #number maximumDeltaTime
+
+---
+-- @field [parent=#Time] #number smoothDeltaTime
+
+---
+-- @field [parent=#Time] #number maximumParticleDeltaTime
+
+---
+-- @field [parent=#Time] #number timeScale
+
+---
+-- @field [parent=#Time] #number frameCount
+
+---
+-- @field [parent=#Time] #number renderedFrameCount
+
+---
+-- @field [parent=#Time] #number realtimeSinceStartup
+
+---
+-- @field [parent=#Time] #number captureFramerate
+
+---
+-- @field [parent=#Time] #boolean inFixedTimeStep
+
+return nil

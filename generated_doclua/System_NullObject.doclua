@@ -1,0 +1,7 @@
+---
+-- @module System_NullObject
+
+---
+-- @type NullObject
+
+return nil

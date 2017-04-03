@@ -1,0 +1,148 @@
+---
+-- @module UnityEngine_Shader
+
+---
+-- @type Shader
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#Shader] Find
+-- @param arg0
+-- @return UnityEngine_Shader#Shader
+
+---
+-- @function [parent=#Shader] EnableKeyword
+-- @param arg0
+
+---
+-- @function [parent=#Shader] DisableKeyword
+-- @param arg0
+
+---
+-- @function [parent=#Shader] IsKeywordEnabled
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Shader] SetGlobalBuffer
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] PropertyToID
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Shader] WarmupAllShaders
+
+---
+-- @function [parent=#Shader] SetGlobalFloat
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalInt
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalVector
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalColor
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalMatrix
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalTexture
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalFloatArray
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalVectorArray
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalMatrixArray
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] GetGlobalFloat
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Shader] GetGlobalInt
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Shader] GetGlobalVector
+-- @param arg0
+-- @return UnityEngine_Vector4#Vector4
+
+---
+-- @function [parent=#Shader] GetGlobalColor
+-- @param arg0
+-- @return UnityEngine_Color#Color
+
+---
+-- @function [parent=#Shader] GetGlobalMatrix
+-- @param arg0
+-- @return UnityEngine_Matrix4x4#Matrix4x4
+
+---
+-- @function [parent=#Shader] GetGlobalTexture
+-- @param arg0
+-- @return UnityEngine_Texture#Texture
+
+---
+-- @function [parent=#Shader] GetGlobalFloatArray
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] GetGlobalVectorArray
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] GetGlobalMatrixArray
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] New
+-- @return UnityEngine_Shader#Shader
+
+---
+-- @field [parent=#Shader] #boolean isSupported
+
+---
+-- @field [parent=#Shader] #number maximumLOD
+
+---
+-- @field [parent=#Shader] #number globalMaximumLOD
+
+---
+-- @field [parent=#Shader] #string globalRenderPipeline
+
+---
+-- @field [parent=#Shader] #number renderQueue
+
+return nil

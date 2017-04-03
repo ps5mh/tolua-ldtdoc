@@ -1,0 +1,17 @@
+---
+-- @module UnityEngine_AnimationBlendMode
+
+---
+-- @type AnimationBlendMode
+
+---
+-- @function [parent=#AnimationBlendMode] IntToEnum
+-- @return UnityEngine_AnimationBlendMode#AnimationBlendMode
+
+---
+-- @field [parent=#AnimationBlendMode] UnityEngine_AnimationBlendMode#AnimationBlendMode Blend
+
+---
+-- @field [parent=#AnimationBlendMode] UnityEngine_AnimationBlendMode#AnimationBlendMode Additive
+
+return nil

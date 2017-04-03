@@ -1,0 +1,53 @@
+---
+-- @module UnityEngine_Collider
+
+---
+-- @type Collider
+-- @extends UnityEngine_Component#Component
+
+---
+-- @function [parent=#Collider] ClosestPointOnBounds
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Collider] ClosestPoint
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Collider] Raycast
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #boolean
+
+---
+-- @function [parent=#Collider] New
+-- @return UnityEngine_Collider#Collider
+
+---
+-- @field [parent=#Collider] #boolean enabled
+
+---
+-- @field [parent=#Collider] UnityEngine_Rigidbody#Rigidbody attachedRigidbody
+
+---
+-- @field [parent=#Collider] #boolean isTrigger
+
+---
+-- @field [parent=#Collider] #number contactOffset
+
+---
+-- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial material
+
+---
+-- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial sharedMaterial
+
+---
+-- @field [parent=#Collider] UnityEngine_Bounds#Bounds bounds
+
+return nil

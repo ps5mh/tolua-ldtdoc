@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngine_Mathf
+
+---
+-- @type Mathf
+-- @extends UnityEngine.Mathf#Mathf
+
+return nil

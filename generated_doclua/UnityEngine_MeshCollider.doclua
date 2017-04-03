@@ -1,0 +1,24 @@
+---
+-- @module UnityEngine_MeshCollider
+
+---
+-- @type MeshCollider
+-- @extends UnityEngine_Collider#Collider
+
+---
+-- @function [parent=#MeshCollider] New
+-- @return UnityEngine_MeshCollider#MeshCollider
+
+---
+-- @field [parent=#MeshCollider] UnityEngine_Mesh#Mesh sharedMesh
+
+---
+-- @field [parent=#MeshCollider] #boolean convex
+
+---
+-- @field [parent=#MeshCollider] #boolean inflateMesh
+
+---
+-- @field [parent=#MeshCollider] #number skinWidth
+
+return nil

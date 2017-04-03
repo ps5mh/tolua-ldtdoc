@@ -1,0 +1,7 @@
+---
+-- @module UnityEngine_SleepTimeout
+
+---
+-- @type SleepTimeout
+
+return nil

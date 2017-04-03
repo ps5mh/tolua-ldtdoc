@@ -1,0 +1,73 @@
+---
+-- @module System_Delegate
+
+---
+-- @type Delegate
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#Delegate] CreateDelegate
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] DynamicInvoke
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#Delegate] Clone
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#Delegate] GetObjectData
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Delegate] GetInvocationList
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Delegate] Combine
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] Remove
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] RemoveAll
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] Destroy
+
+---
+-- @function [parent=#Delegate] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Delegate] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @field [parent=#Delegate] System_Reflection_MethodInfo#MethodInfo Method
+
+---
+-- @field [parent=#Delegate] object#object Target
+
+return nil

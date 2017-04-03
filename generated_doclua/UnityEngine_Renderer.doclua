@@ -1,0 +1,99 @@
+---
+-- @module UnityEngine_Renderer
+
+---
+-- @type Renderer
+-- @extends UnityEngine_Component#Component
+
+---
+-- @function [parent=#Renderer] SetPropertyBlock
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Renderer] GetPropertyBlock
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Renderer] GetClosestReflectionProbes
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Renderer] New
+-- @return UnityEngine_Renderer#Renderer
+
+---
+-- @field [parent=#Renderer] #boolean isPartOfStaticBatch
+
+---
+-- @field [parent=#Renderer] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix
+
+---
+-- @field [parent=#Renderer] UnityEngine_Matrix4x4#Matrix4x4 localToWorldMatrix
+
+---
+-- @field [parent=#Renderer] #boolean enabled
+
+---
+-- @field [parent=#Renderer] UnityEngine_Rendering_ShadowCastingMode#ShadowCastingMode shadowCastingMode
+
+---
+-- @field [parent=#Renderer] #boolean receiveShadows
+
+---
+-- @field [parent=#Renderer] UnityEngine_Material#Material material
+
+---
+-- @field [parent=#Renderer] UnityEngine_Material#Material sharedMaterial
+
+---
+-- @field [parent=#Renderer] System_Array#Array materials
+
+---
+-- @field [parent=#Renderer] System_Array#Array sharedMaterials
+
+---
+-- @field [parent=#Renderer] UnityEngine_Bounds#Bounds bounds
+
+---
+-- @field [parent=#Renderer] #number lightmapIndex
+
+---
+-- @field [parent=#Renderer] #number realtimeLightmapIndex
+
+---
+-- @field [parent=#Renderer] UnityEngine_Vector4#Vector4 lightmapScaleOffset
+
+---
+-- @field [parent=#Renderer] UnityEngine_MotionVectorGenerationMode#MotionVectorGenerationMode motionVectorGenerationMode
+
+---
+-- @field [parent=#Renderer] UnityEngine_Vector4#Vector4 realtimeLightmapScaleOffset
+
+---
+-- @field [parent=#Renderer] #boolean isVisible
+
+---
+-- @field [parent=#Renderer] UnityEngine_Rendering_LightProbeUsage#LightProbeUsage lightProbeUsage
+
+---
+-- @field [parent=#Renderer] UnityEngine_GameObject#GameObject lightProbeProxyVolumeOverride
+
+---
+-- @field [parent=#Renderer] UnityEngine_Transform#Transform probeAnchor
+
+---
+-- @field [parent=#Renderer] UnityEngine_Rendering_ReflectionProbeUsage#ReflectionProbeUsage reflectionProbeUsage
+
+---
+-- @field [parent=#Renderer] #string sortingLayerName
+
+---
+-- @field [parent=#Renderer] #number sortingLayerID
+
+---
+-- @field [parent=#Renderer] #number sortingOrder
+
+return nil

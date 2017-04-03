@@ -1,0 +1,50 @@
+---
+-- @module UnityEngine_SkinnedMeshRenderer
+
+---
+-- @type SkinnedMeshRenderer
+-- @extends UnityEngine_Renderer#Renderer
+
+---
+-- @function [parent=#SkinnedMeshRenderer] BakeMesh
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#SkinnedMeshRenderer] GetBlendShapeWeight
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#SkinnedMeshRenderer] SetBlendShapeWeight
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#SkinnedMeshRenderer] New
+-- @return UnityEngine_SkinnedMeshRenderer#SkinnedMeshRenderer
+
+---
+-- @field [parent=#SkinnedMeshRenderer] System_Array#Array bones
+
+---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Transform#Transform rootBone
+
+---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_SkinQuality#SkinQuality quality
+
+---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Mesh#Mesh sharedMesh
+
+---
+-- @field [parent=#SkinnedMeshRenderer] #boolean updateWhenOffscreen
+
+---
+-- @field [parent=#SkinnedMeshRenderer] #boolean skinnedMotionVectors
+
+---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Bounds#Bounds localBounds
+
+return nil

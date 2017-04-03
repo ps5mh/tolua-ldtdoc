@@ -1,0 +1,181 @@
+---
+-- @module UnityEngine_AudioSource
+
+---
+-- @type AudioSource
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#AudioSource] Play
+-- @param self
+
+---
+-- @function [parent=#AudioSource] PlayDelayed
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AudioSource] PlayScheduled
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AudioSource] SetScheduledStartTime
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AudioSource] SetScheduledEndTime
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AudioSource] Stop
+-- @param self
+
+---
+-- @function [parent=#AudioSource] Pause
+-- @param self
+
+---
+-- @function [parent=#AudioSource] UnPause
+-- @param self
+
+---
+-- @function [parent=#AudioSource] PlayOneShot
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AudioSource] PlayClipAtPoint
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#AudioSource] SetCustomCurve
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#AudioSource] GetCustomCurve
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AnimationCurve#AnimationCurve
+
+---
+-- @function [parent=#AudioSource] GetOutputData
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#AudioSource] GetSpectrumData
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#AudioSource] SetSpatializerFloat
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#AudioSource] GetSpatializerFloat
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#AudioSource] New
+-- @return UnityEngine_AudioSource#AudioSource
+
+---
+-- @field [parent=#AudioSource] #number volume
+
+---
+-- @field [parent=#AudioSource] #number pitch
+
+---
+-- @field [parent=#AudioSource] #number time
+
+---
+-- @field [parent=#AudioSource] #number timeSamples
+
+---
+-- @field [parent=#AudioSource] UnityEngine_AudioClip#AudioClip clip
+
+---
+-- @field [parent=#AudioSource] UnityEngine_Audio_AudioMixerGroup#AudioMixerGroup outputAudioMixerGroup
+
+---
+-- @field [parent=#AudioSource] #boolean isPlaying
+
+---
+-- @field [parent=#AudioSource] #boolean isVirtual
+
+---
+-- @field [parent=#AudioSource] #boolean loop
+
+---
+-- @field [parent=#AudioSource] #boolean ignoreListenerVolume
+
+---
+-- @field [parent=#AudioSource] #boolean playOnAwake
+
+---
+-- @field [parent=#AudioSource] #boolean ignoreListenerPause
+
+---
+-- @field [parent=#AudioSource] UnityEngine_AudioVelocityUpdateMode#AudioVelocityUpdateMode velocityUpdateMode
+
+---
+-- @field [parent=#AudioSource] #number panStereo
+
+---
+-- @field [parent=#AudioSource] #number spatialBlend
+
+---
+-- @field [parent=#AudioSource] #boolean spatialize
+
+---
+-- @field [parent=#AudioSource] #boolean spatializePostEffects
+
+---
+-- @field [parent=#AudioSource] #number reverbZoneMix
+
+---
+-- @field [parent=#AudioSource] #boolean bypassEffects
+
+---
+-- @field [parent=#AudioSource] #boolean bypassListenerEffects
+
+---
+-- @field [parent=#AudioSource] #boolean bypassReverbZones
+
+---
+-- @field [parent=#AudioSource] #number dopplerLevel
+
+---
+-- @field [parent=#AudioSource] #number spread
+
+---
+-- @field [parent=#AudioSource] #number priority
+
+---
+-- @field [parent=#AudioSource] #boolean mute
+
+---
+-- @field [parent=#AudioSource] #number minDistance
+
+---
+-- @field [parent=#AudioSource] #number maxDistance
+
+---
+-- @field [parent=#AudioSource] UnityEngine_AudioRolloffMode#AudioRolloffMode rolloffMode
+
+return nil

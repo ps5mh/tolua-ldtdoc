@@ -1,0 +1,26 @@
+---
+-- @module UnityEngine_CameraClearFlags
+
+---
+-- @type CameraClearFlags
+
+---
+-- @function [parent=#CameraClearFlags] IntToEnum
+-- @return UnityEngine_CameraClearFlags#CameraClearFlags
+
+---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Skybox
+
+---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Color
+
+---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags SolidColor
+
+---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Depth
+
+---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Nothing
+
+return nil

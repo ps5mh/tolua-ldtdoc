@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+-- @module UnityEngineExt
+
+---
+-- @type UnityEngineExt
+-- @extends  UnityEngine#UnityEngine
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Vector2#Vector2 Vector2
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Vector3#Vector3 Vector3
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Vector4#Vector4 Vector4
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Quaternion#Quaternion Quaternion
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Touch#Touch Touch
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Color#Color Color
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_RaycastHit#RaycastHit RaycastHit
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Mathf#Mathf Mathf
+
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Time#Time Time
+
+return nil

@@ -1,0 +1,16 @@
+---
+-- @module LuaInterface_LuaMethod
+
+---
+-- @type LuaMethod
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#LuaMethod] Destroy
+-- @param self
+
+---
+-- @function [parent=#LuaMethod] Call
+-- @param self
+
+return nil

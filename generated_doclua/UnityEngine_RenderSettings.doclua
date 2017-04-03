@@ -1,0 +1,79 @@
+---
+-- @module UnityEngine_RenderSettings
+
+---
+-- @type RenderSettings
+
+---
+-- @field [parent=#RenderSettings] #boolean fog
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings fogMode
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings fogColor
+
+---
+-- @field [parent=#RenderSettings] #number fogDensity
+
+---
+-- @field [parent=#RenderSettings] #number fogStartDistance
+
+---
+-- @field [parent=#RenderSettings] #number fogEndDistance
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings ambientMode
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings ambientSkyColor
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings ambientEquatorColor
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings ambientGroundColor
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings ambientLight
+
+---
+-- @field [parent=#RenderSettings] #number ambientIntensity
+
+---
+-- @field [parent=#RenderSettings] ambientProbe
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings subtractiveShadowColor
+
+---
+-- @field [parent=#RenderSettings] #number reflectionIntensity
+
+---
+-- @field [parent=#RenderSettings] #number reflectionBounces
+
+---
+-- @field [parent=#RenderSettings] #number haloStrength
+
+---
+-- @field [parent=#RenderSettings] #number flareStrength
+
+---
+-- @field [parent=#RenderSettings] #number flareFadeSpeed
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings skybox
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings sun
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings defaultReflectionMode
+
+---
+-- @field [parent=#RenderSettings] #number defaultReflectionResolution
+
+---
+-- @field [parent=#RenderSettings] UnityEngine_RenderSettings#RenderSettings customReflection
+
+return nil

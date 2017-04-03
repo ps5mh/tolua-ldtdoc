@@ -1,0 +1,16 @@
+---
+-- @module LuaInterface_LuaConstructor
+
+---
+-- @type LuaConstructor
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#LuaConstructor] Call
+-- @param self
+
+---
+-- @function [parent=#LuaConstructor] Destroy
+-- @param self
+
+return nil

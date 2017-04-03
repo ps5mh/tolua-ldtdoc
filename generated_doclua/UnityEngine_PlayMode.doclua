@@ -1,0 +1,17 @@
+---
+-- @module UnityEngine_PlayMode
+
+---
+-- @type PlayMode
+
+---
+-- @function [parent=#PlayMode] IntToEnum
+-- @return UnityEngine_PlayMode#PlayMode
+
+---
+-- @field [parent=#PlayMode] UnityEngine_PlayMode#PlayMode StopSameLayer
+
+---
+-- @field [parent=#PlayMode] UnityEngine_PlayMode#PlayMode StopAll
+
+return nil

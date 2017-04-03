@@ -1,0 +1,111 @@
+---
+-- @module UnityEngine_RenderTexture
+
+---
+-- @type RenderTexture
+-- @extends UnityEngine_Texture#Texture
+
+---
+-- @function [parent=#RenderTexture] GetTemporary
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_RenderTexture#RenderTexture
+
+---
+-- @function [parent=#RenderTexture] ReleaseTemporary
+-- @param arg0
+
+---
+-- @function [parent=#RenderTexture] Create
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] Release
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] IsCreated
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] DiscardContents
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] MarkRestoreExpected
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] GenerateMips
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] GetNativeDepthBufferPtr
+-- @param self
+-- @return System_IntPtr#IntPtr
+
+---
+-- @function [parent=#RenderTexture] SetGlobalShaderProperty
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#RenderTexture] SupportsStencil
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] New
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_RenderTexture#RenderTexture
+
+---
+-- @field [parent=#RenderTexture] #number width
+
+---
+-- @field [parent=#RenderTexture] #number height
+
+---
+-- @field [parent=#RenderTexture] #number depth
+
+---
+-- @field [parent=#RenderTexture] #boolean isPowerOfTwo
+
+---
+-- @field [parent=#RenderTexture] #boolean sRGB
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderTextureFormat#RenderTextureFormat format
+
+---
+-- @field [parent=#RenderTexture] #boolean useMipMap
+
+---
+-- @field [parent=#RenderTexture] #boolean autoGenerateMips
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
+
+---
+-- @field [parent=#RenderTexture] #number volumeDepth
+
+---
+-- @field [parent=#RenderTexture] #number antiAliasing
+
+---
+-- @field [parent=#RenderTexture] #boolean enableRandomWrite
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer colorBuffer
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer depthBuffer
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderTexture#RenderTexture active
+
+return nil

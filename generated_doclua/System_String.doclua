@@ -1,0 +1,245 @@
+---
+-- @module System_String
+
+---
+-- @type String
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#String] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] Clone
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#String] GetTypeCode
+-- @param self
+-- @return System_TypeCode#TypeCode
+
+---
+-- @function [parent=#String] CopyTo
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#String] ToCharArray
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#String] Split
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#String] Substring
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] Trim
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] TrimStart
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] TrimEnd
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] Compare
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#String] CompareTo
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#String] CompareOrdinal
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#String] EndsWith
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] IndexOfAny
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#String] IndexOf
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#String] LastIndexOf
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#String] LastIndexOfAny
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#String] Contains
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] IsNullOrEmpty
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] Normalize
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] IsNormalized
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#String] Remove
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] PadLeft
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] PadRight
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] StartsWith
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] Replace
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#String] ToLower
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] ToLowerInvariant
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] ToUpper
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] ToUpperInvariant
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] ToString
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] Format
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#String] Copy
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] Concat
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] Insert
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#String] Intern
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] IsInterned
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] Join
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#String] GetEnumerator
+-- @param self
+-- @return System_CharEnumerator#CharEnumerator
+
+---
+-- @function [parent=#String] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @field [parent=#String] #string Empty
+
+---
+-- @field [parent=#String] #number Length
+
+return nil
