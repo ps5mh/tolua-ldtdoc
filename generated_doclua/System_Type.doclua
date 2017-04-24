@@ -27,17 +27,7 @@
 -- @return System_TypeCode#TypeCode
 
 ---
--- @function [parent=#Type] GetTypeFromCLSID
--- @param arg0
--- @return System_Type#Type
-
----
 -- @function [parent=#Type] GetTypeFromHandle
--- @param arg0
--- @return System_Type#Type
-
----
--- @function [parent=#Type] GetTypeFromProgID
 -- @param arg0
 -- @return System_Type#Type
 

@@ -1,0 +1,36 @@
+---
+-- @module UnityEngine_SpriteRenderer
+
+---
+-- @type SpriteRenderer
+-- @extends UnityEngine_Renderer#Renderer
+
+---
+-- @function [parent=#SpriteRenderer] New
+-- @return UnityEngine_SpriteRenderer#SpriteRenderer
+
+---
+-- @field [parent=#SpriteRenderer] UnityEngine_Sprite#Sprite sprite
+
+---
+-- @field [parent=#SpriteRenderer] UnityEngine_SpriteDrawMode#SpriteDrawMode drawMode
+
+---
+-- @field [parent=#SpriteRenderer] UnityEngine_Vector2#Vector2 size
+
+---
+-- @field [parent=#SpriteRenderer] #number adaptiveModeThreshold
+
+---
+-- @field [parent=#SpriteRenderer] UnityEngine_SpriteTileMode#SpriteTileMode tileMode
+
+---
+-- @field [parent=#SpriteRenderer] UnityEngine_Color#Color color
+
+---
+-- @field [parent=#SpriteRenderer] #boolean flipX
+
+---
+-- @field [parent=#SpriteRenderer] #boolean flipY
+
+return nil

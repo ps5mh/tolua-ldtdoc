@@ -1,0 +1,382 @@
+---
+-- @module UnityEngine_Physics2D
+
+---
+-- @type Physics2D
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#Physics2D] IgnoreCollision
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Physics2D] GetIgnoreCollision
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Physics2D] IgnoreLayerCollision
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Physics2D] GetIgnoreLayerCollision
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Physics2D] SetLayerCollisionMask
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Physics2D] GetLayerCollisionMask
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] IsTouching
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Physics2D] IsTouchingLayers
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Physics2D] Distance
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_ColliderDistance2D#ColliderDistance2D
+
+---
+-- @function [parent=#Physics2D] Linecast
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] LinecastAll
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] LinecastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] Raycast
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] RaycastAll
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] RaycastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] CircleCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] CircleCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] CircleCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] BoxCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] BoxCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] BoxCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] CapsuleCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] CapsuleCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] CapsuleCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] GetRayIntersection
+-- @param arg0
+-- @return UnityEngine_RaycastHit2D#RaycastHit2D
+
+---
+-- @function [parent=#Physics2D] GetRayIntersectionAll
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] GetRayIntersectionNonAlloc
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapPoint
+-- @param arg0
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @function [parent=#Physics2D] OverlapPointAll
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] OverlapPointNonAlloc
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapCircle
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @function [parent=#Physics2D] OverlapCircleAll
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] OverlapCircleNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapBox
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @function [parent=#Physics2D] OverlapBoxAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] OverlapBoxNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapArea
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @function [parent=#Physics2D] OverlapAreaAll
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] OverlapAreaNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapCapsule
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @function [parent=#Physics2D] OverlapCapsuleAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Physics2D] OverlapCapsuleNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] OverlapCollider
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] GetContacts
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Physics2D] New
+-- @return UnityEngine_Physics2D#Physics2D
+
+---
+-- @field [parent=#Physics2D] #number velocityIterations
+
+---
+-- @field [parent=#Physics2D] #number positionIterations
+
+---
+-- @field [parent=#Physics2D] UnityEngine_Physics2D#Physics2D gravity
+
+---
+-- @field [parent=#Physics2D] #boolean queriesHitTriggers
+
+---
+-- @field [parent=#Physics2D] #boolean queriesStartInColliders
+
+---
+-- @field [parent=#Physics2D] #boolean changeStopsCallbacks
+
+---
+-- @field [parent=#Physics2D] #number velocityThreshold
+
+---
+-- @field [parent=#Physics2D] #number maxLinearCorrection
+
+---
+-- @field [parent=#Physics2D] #number maxAngularCorrection
+
+---
+-- @field [parent=#Physics2D] #number maxTranslationSpeed
+
+---
+-- @field [parent=#Physics2D] #number maxRotationSpeed
+
+---
+-- @field [parent=#Physics2D] #number defaultContactOffset
+
+---
+-- @field [parent=#Physics2D] #number baumgarteScale
+
+---
+-- @field [parent=#Physics2D] #number baumgarteTOIScale
+
+---
+-- @field [parent=#Physics2D] #number timeToSleep
+
+---
+-- @field [parent=#Physics2D] #number linearSleepTolerance
+
+---
+-- @field [parent=#Physics2D] #number angularSleepTolerance
+
+---
+-- @field [parent=#Physics2D] #boolean alwaysShowColliders
+
+---
+-- @field [parent=#Physics2D] #boolean showColliderSleep
+
+---
+-- @field [parent=#Physics2D] #boolean showColliderContacts
+
+---
+-- @field [parent=#Physics2D] #boolean showColliderAABB
+
+---
+-- @field [parent=#Physics2D] #number contactArrowScale
+
+---
+-- @field [parent=#Physics2D] UnityEngine_Physics2D#Physics2D colliderAwakeColor
+
+---
+-- @field [parent=#Physics2D] UnityEngine_Physics2D#Physics2D colliderAsleepColor
+
+---
+-- @field [parent=#Physics2D] UnityEngine_Physics2D#Physics2D colliderContactColor
+
+---
+-- @field [parent=#Physics2D] UnityEngine_Physics2D#Physics2D colliderAABBColor
+
+return nil

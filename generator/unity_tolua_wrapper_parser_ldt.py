@@ -212,9 +212,9 @@ def parse(ifile,odir):
 			of.write("return nil\n")
 
 if __name__ == "__main__":
-	srcdir1 = r"D:\develop\projects\Test Unity Project\Assets\3rd\tolua\Source\Generate"
-	srcdir2 = r"D:\develop\projects\Test Unity Project\Assets\3rd\tolua\ToLua\BaseType"
-	destdir = r"D:\develop\projects\tolua-ldtdoc\generated_doclua"
+	srcdir1 = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\Assets\Source\Generate"
+	srcdir2 = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\Assets\3rd\tolua\ToLua\BaseType"
+	destdir = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\modules\tolua-ldtdoc\generated_doclua"
 	flist1 = [os.path.join(srcdir1,f) for f in os.listdir(srcdir1)]
 	flist2 = [os.path.join(srcdir2,f) for f in os.listdir(srcdir2)]
 

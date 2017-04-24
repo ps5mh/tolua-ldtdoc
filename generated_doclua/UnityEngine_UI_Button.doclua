@@ -1,0 +1,21 @@
+---
+-- @module UnityEngine_UI_Button
+
+---
+-- @type Button
+-- @extends UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Button] OnPointerClick
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Button] OnSubmit
+-- @param self
+-- @param arg0
+
+---
+-- @field [parent=#Button] UnityEngine_UI_Button_ButtonClickedEvent#ButtonClickedEvent onClick
+
+return nil

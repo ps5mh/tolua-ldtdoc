@@ -1,0 +1,98 @@
+---
+-- @module UnityEngine_Collider2D
+
+---
+-- @type Collider2D
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Collider2D] IsTouching
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Collider2D] IsTouchingLayers
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#Collider2D] OverlapPoint
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Collider2D] OverlapCollider
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Collider2D] Raycast
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Collider2D] Cast
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#Collider2D] GetContacts
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Collider2D] Distance
+-- @param self
+-- @param arg0
+-- @return UnityEngine_ColliderDistance2D#ColliderDistance2D
+
+---
+-- @function [parent=#Collider2D] New
+-- @return UnityEngine_Collider2D#Collider2D
+
+---
+-- @field [parent=#Collider2D] #number density
+
+---
+-- @field [parent=#Collider2D] #boolean isTrigger
+
+---
+-- @field [parent=#Collider2D] #boolean usedByEffector
+
+---
+-- @field [parent=#Collider2D] #boolean usedByComposite
+
+---
+-- @field [parent=#Collider2D] UnityEngine_CompositeCollider2D#CompositeCollider2D composite
+
+---
+-- @field [parent=#Collider2D] UnityEngine_Vector2#Vector2 offset
+
+---
+-- @field [parent=#Collider2D] UnityEngine_Rigidbody2D#Rigidbody2D attachedRigidbody
+
+---
+-- @field [parent=#Collider2D] #number shapeCount
+
+---
+-- @field [parent=#Collider2D] UnityEngine_Bounds#Bounds bounds
+
+---
+-- @field [parent=#Collider2D] UnityEngine_PhysicsMaterial2D#PhysicsMaterial2D sharedMaterial
+
+---
+-- @field [parent=#Collider2D] #number friction
+
+---
+-- @field [parent=#Collider2D] #number bounciness
+
+return nil

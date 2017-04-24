@@ -1,0 +1,108 @@
+---
+-- @module UnityEngine_UI_Selectable
+
+---
+-- @type Selectable
+-- @extends UnityEngine_EventSystems_UIBehaviour#UIBehaviour
+
+---
+-- @function [parent=#Selectable] IsInteractable
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#Selectable] FindSelectable
+-- @param self
+-- @param arg0
+-- @return UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Selectable] FindSelectableOnLeft
+-- @param self
+-- @return UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Selectable] FindSelectableOnRight
+-- @param self
+-- @return UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Selectable] FindSelectableOnUp
+-- @param self
+-- @return UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Selectable] FindSelectableOnDown
+-- @param self
+-- @return UnityEngine_UI_Selectable#Selectable
+
+---
+-- @function [parent=#Selectable] OnMove
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnPointerDown
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnPointerUp
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnPointerEnter
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnPointerExit
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnSelect
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] OnDeselect
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Selectable] Select
+-- @param self
+
+---
+-- @field [parent=#Selectable] allSelectables
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_Navigation#Navigation navigation
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_Selectable_Transition#Transition transition
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_ColorBlock#ColorBlock colors
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_SpriteState#SpriteState spriteState
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_AnimationTriggers#AnimationTriggers animationTriggers
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_Graphic#Graphic targetGraphic
+
+---
+-- @field [parent=#Selectable] #boolean interactable
+
+---
+-- @field [parent=#Selectable] UnityEngine_UI_Image#Image image
+
+---
+-- @field [parent=#Selectable] UnityEngine_Animator#Animator animator
+
+return nil

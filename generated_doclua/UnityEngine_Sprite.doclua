@@ -1,0 +1,70 @@
+---
+-- @module UnityEngine_Sprite
+
+---
+-- @type Sprite
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#Sprite] Create
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_Sprite#Sprite
+
+---
+-- @function [parent=#Sprite] OverrideGeometry
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Sprite] New
+-- @return UnityEngine_Sprite#Sprite
+
+---
+-- @field [parent=#Sprite] UnityEngine_Bounds#Bounds bounds
+
+---
+-- @field [parent=#Sprite] UnityEngine_Rect#Rect rect
+
+---
+-- @field [parent=#Sprite] #number pixelsPerUnit
+
+---
+-- @field [parent=#Sprite] UnityEngine_Texture2D#Texture2D texture
+
+---
+-- @field [parent=#Sprite] UnityEngine_Texture2D#Texture2D associatedAlphaSplitTexture
+
+---
+-- @field [parent=#Sprite] UnityEngine_Rect#Rect textureRect
+
+---
+-- @field [parent=#Sprite] UnityEngine_Vector2#Vector2 textureRectOffset
+
+---
+-- @field [parent=#Sprite] #boolean packed
+
+---
+-- @field [parent=#Sprite] UnityEngine_SpritePackingMode#SpritePackingMode packingMode
+
+---
+-- @field [parent=#Sprite] UnityEngine_SpritePackingRotation#SpritePackingRotation packingRotation
+
+---
+-- @field [parent=#Sprite] UnityEngine_Vector2#Vector2 pivot
+
+---
+-- @field [parent=#Sprite] UnityEngine_Vector4#Vector4 border
+
+---
+-- @field [parent=#Sprite] System_Array#Array vertices
+
+---
+-- @field [parent=#Sprite] System_Array#Array triangles
+
+---
+-- @field [parent=#Sprite] System_Array#Array uv
+
+return nil

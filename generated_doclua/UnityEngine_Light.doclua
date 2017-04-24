@@ -106,9 +106,6 @@
 -- @field [parent=#Light] #number cullingMask
 
 ---
--- @field [parent=#Light] UnityEngine_LightmapBakeType#LightmapBakeType lightmapBakeType
-
----
 -- @field [parent=#Light] #number commandBufferCount
 
 return nil
