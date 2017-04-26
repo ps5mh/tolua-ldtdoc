@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
 import os
+from io import open
 
 # i gave up (T_T)
 override = {
@@ -185,7 +186,7 @@ def parse(ifile,odir):
 		ldt_type = cstype_map_to_ldttype(parsing_class["name"])
 		parsing_module = ldt_type.split("#")[0]
 		parsing_type = ldt_type.split("#")[1]
-		with open(os.path.join(odir,parsing_module+".doclua"),"w") as of:
+		with open(os.path.join(odir,parsing_module+".doclua"),mode="wb") as of:
 			of.write("---\n")
 			of.write("-- @module %s\n\n" % parsing_module)
 			of.write("---\n")
@@ -212,9 +213,9 @@ def parse(ifile,odir):
 			of.write("return nil\n")
 
 if __name__ == "__main__":
-	srcdir1 = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\Assets\Source\Generate"
-	srcdir2 = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\Assets\3rd\tolua\ToLua\BaseType"
-	destdir = r"D:\develop\projects\UnitySample-2DRoguelike-ToLua\modules\tolua-ldtdoc\generated_doclua"
+	srcdir1 = r"E:\projects\UnitySample-2DRoguelike-ToLua\Assets\Source\Generate"
+	srcdir2 = r"E:\projects\UnitySample-2DRoguelike-ToLua\Assets\3rd\tolua\ToLua\BaseType"
+	destdir = r"E:\projects\UnitySample-2DRoguelike-ToLua\modules\tolua-ldtdoc\generated_doclua"
 	flist1 = [os.path.join(srcdir1,f) for f in os.listdir(srcdir1)]
 	flist2 = [os.path.join(srcdir2,f) for f in os.listdir(srcdir2)]
 
@@ -234,7 +235,7 @@ if __name__ == "__main__":
 				root_module_fields = root_module_to_fields.setdefault(root_module,{})
 				root_module_fields[filed_name] = {"type": cstype_map_to_ldttype(module_name)}
 	for module,fields in root_module_to_fields.items():
-		with open(os.path.join(destdir, module + ".doclua"),"w") as of:
+		with open(os.path.join(destdir, module + ".doclua"),mode="wb") as of:
 			of.write("---\n-- @module %s\n\n" % module)
 			for field, field_info in fields.items():
 				of.write("---\n-- @field [parent=#%s] %s %s\n\n" % (module, field_info["type"], field))
