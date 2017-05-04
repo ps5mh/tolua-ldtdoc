@@ -13,6 +13,9 @@ For a quick tour, check my [example project](https://github.com/ps5mh/UnitySampl
 Then enjoy:  
 <img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="700"/>  
 
+# self. autocompletion
+- please check [ldt-self-autocomplete](https://github.com/ps5mh/ldt-self-autocomplete)
+
 # why eclipse
 ### type hinting
 ![Type-Hinting Example](./generator/type_hinting_example.png)
